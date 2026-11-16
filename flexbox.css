@@ -1,0 +1,186 @@
+/* ============ BAGIAN C ============ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.container-c {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container-c .header {
+    background-color: #f2e394;
+    padding: 20px;
+    flex: 0 0 auto;
+}
+
+.container-c .main-c {
+    display: flex;
+    flex: 1;           /* mengisi sisa ruang antara header & footer */
+}
+
+.container-c .article {
+    background-color: #ffffff;
+    padding: 20px;
+    flex: 3;           /* article lebih lebar */
+}
+
+.container-c .aside {
+    background-color: #f9b4c1;
+    padding: 20px;
+    flex: 1;
+}
+
+.container-c .nav {
+    background-color: #16c7b3;
+    padding: 20px;
+    flex: 1;
+}
+
+.container-c .footer {
+    background-color: #f2e394;
+    padding: 20px;
+    flex: 0 0 auto;
+}
+
+/* ============ BAGIAN D ============ */
+.flex-row-top,
+.flex-row-bottom {
+    display: flex;
+    gap: 8px;
+    margin: 10px;
+}
+
+.flex-row-top .flex-item {
+    flex: 1;
+    height: 60px;
+    background-color: #e0e0e0;
+    border: 3px solid #333;
+    border-radius: 6px;
+}
+
+.flex-row-bottom .flex-item {
+    flex: 1;
+    height: 60px;
+    background-color: #e0e0e0;
+    border: 3px solid #333;
+    border-radius: 6px;
+}
+
+/* ============ BAGIAN E - Layout 8(a) ============ */
+.wrapper-8a {
+    display: flex;
+    height: 100vh;
+}
+
+.wrapper-8a .nav-8a {
+    background-color: #f9b4c1;
+    flex: 0 0 160px;      /* lebar tetap untuk nav kiri */
+    padding: 20px;
+}
+
+.wrapper-8a .right-8a {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.wrapper-8a .header-8a {
+    background-color: #f2e394;
+    padding: 20px;
+}
+
+.wrapper-8a .main-8a {
+    display: flex;
+    flex: 1;
+}
+
+.wrapper-8a .article-8a {
+    background-color: #ffffff;
+    flex: 3;
+    padding: 20px;
+}
+
+.wrapper-8a .aside-8a {
+    background-color: #16f0e4;
+    flex: 1;
+    padding: 20px;
+}
+
+.wrapper-8a .footer-8a {
+    background-color: #f2e394;
+    padding: 20px;
+}
+
+/* ============ BAGIAN E - Layout 8(b) ============ */
+.wrapper-8b {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9b4c1;
+    padding: 15px;
+    gap: 15px;
+}
+
+.wrapper-8b .header-8b {
+    background-color: #8fd6cf;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.wrapper-8b .body-8b {
+    display: flex;
+    flex: 1;
+    gap: 15px;
+}
+
+.wrapper-8b .aside-8b {
+    background-color: #5fb3b0;
+    flex: 0 0 25%;
+    padding: 20px;
+    color: #fff;
+}
+
+.wrapper-8b .article-8b {
+    background-color: #ff6b6b;
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+}
+
+.wrapper-8b .article-8b h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.wrapper-8b .images-8b {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.wrapper-8b .img-box {
+    flex: 1;
+    background-color: #cccccc;
+    padding: 30px 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.wrapper-8b .footer-8b {
+    background-color: #8fd6cf;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
